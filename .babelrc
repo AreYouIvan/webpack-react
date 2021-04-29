@@ -1,0 +1,7 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ]
+}
+// This able us compile all the JS versions. And the other one ables undestand the react syntax.  
