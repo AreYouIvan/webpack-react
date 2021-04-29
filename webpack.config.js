@@ -62,7 +62,3 @@ module.exports = {
   }
 };
 
-// entry
-// output
-// resource
-// module
