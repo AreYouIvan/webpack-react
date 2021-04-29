@@ -26,7 +26,7 @@ module.exports = {
       },
       {
         test: "/.html$/",
-        use: [{ loader: "html-loader" }],
+        use: { loader: "html-loader" },
       },
       {
         test: /\.s[ac]ss$/,
@@ -37,7 +37,7 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./public/index.html",
-      filename: "./index.html",
+      filename: "index.html",
     }),
     new MiniCssExtractPlugin({
       filename: "[name].css",
